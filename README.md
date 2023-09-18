@@ -28,6 +28,11 @@ Please provide test monitoring results in any convenient form (files, images, ad
 ### Additional task
 Research https://agones.dev/site/. Deploy agones locally (minikube or docker desktop, kubernetes) or in any cloud. AWS is a big plus. Use https://github.com/googleforgames/agones/tree/main/examples/xonotic as dedicated server. Xonotic client should be able to join a dedicated server. Matchmaker or any other automatic fleet management is not required. Fleet could be managed manually with agones rest api. Provide documentation with steps how to reproduce the environment and test the game
 
+# Andrey Firsov Task Review
+
+[Demo link](https://drive.google.com/file/d/1a-Ato9LdHFDCnNHbcAcGgPY0GypiV-Xc/view?usp=sharing)
+
+In demo.zip you can find same video and screen with results of testing.
 
 ##Commands for Docker Compose Stack
 
