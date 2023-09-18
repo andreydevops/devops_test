@@ -34,9 +34,9 @@ Research https://agones.dev/site/. Deploy agones locally (minikube or docker des
 
 In demo.zip you can find same video and screen with results of testing.
 
-##Commands for Docker Compose Stack
+### Commands for Docker Compose Stack
 
-###Stop & Start
+#### Stop & Start
 Start stack golang app + redis:
 `docker-compose up -d`
 
@@ -47,7 +47,7 @@ Stop stack golang app + redis:
 
 But for local testing I can recommend following commands:
 
-###Redis Monitoring
+#### Redis Monitoring
 
 Check Redis works for 1 time test. Response: PONG
 
@@ -59,7 +59,7 @@ Check redis works fine with his data
 
 
 
-###App Monitoring
+#### App Monitoring
 
 Get 200 Code
 `curl -s -o /dev/null -w "%{http_code}" http://localhost:8080 `
@@ -67,7 +67,7 @@ Get 200 Code
 To get logs for goapp
 `docker logs devops_test -f`
 
-##HELM
+### HELM
 
 Build image from Dockerfile
 
@@ -90,7 +90,7 @@ Need to run helm install with new namespaces (devops1 as example)
 
 You will see some commands for **port-forwarding**. Run it.
 
-###Testing
+### Testing
 
 Need to use `port-forward` before testing.
 
@@ -104,7 +104,7 @@ Run tests
 You can change URI parameters for testing in variable
 `requests="/ /88 /admin /"`
 
-##Additional info
+## Additional info
 
 To **Expose** service to separate IP:PORT
 
